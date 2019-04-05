@@ -1,6 +1,172 @@
- 
+ <!DOCTYPE html>
+<html>
+<head>
+
+<meta name="description" content="Fernando Duarte, Economist at the Federal Reserve Bank of New York" />
+
+<style>
+div.container {
+    width: 100%;
+}
+header, footer {
+    background-image: url("images/header22.jpg");
+    color:white;
+    text-align:center;
+    padding:5px;
+    max-width:1300px;
+}
+nav {
+    height:600px;
+    width:280px;
+    float:left;
+    padding:5px;
+}
+article {
+    max-width:900px;
+    padding:5px;
+    overflow: hidden;
+}
+body
+{
+    background-color:white;
+    font-family:"Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+    line-height:150%;
+    font-size:100%;
+}
+li{
+  margin: 15px 0;
+}
+dt{
+  margin: 15px 0 0 15px;
+}
+a:link
+{
+    text-decoration:none;
+    /*font-weight: bold;*/
+    color: #CD6314;
+}
+a:visited
+{
+    text-decoration:none;
+    color: #CD6314;
+}
+a:hover
+{
+    text-decoration:none;
+    color: #FF8000;
+}
+a:active
+{
+    text-decoration:none;
+    color: #CD6314;
+}
+button.accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding: 0px;
+    color:#CD6314;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 100%;
+    transition: 0.4s;
+}
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd; 
+}
+button.accordion:after {
+    content: '[+]';
+    font-size: 90%;
+    color: black;
+    float: left;
+    margin-left: 1px;
+}
+button.accordion.active:after {
+    content: "[\2212]";
+}
+div.panel {
+    padding: 0 20px;
+    margin-top: 5px;
+    display: none;
+    background-color: white;
+    font-size: 100%;
+}
+div.panel.show {
+    display: block !important;
+}
+</style>
+
+<title>Fernando Duarte</title>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+
+<header>
+    <h1>&emsp;&emsp;Fernando Duarte &mdash; New York Fed</h1>
+</header>
+
+
+<nav>
+    <img src="images/duarte2.jpg" alt="Picture"/>
+    <p>
+    <b>Mail:</b><br>
+    Federal Reserve Bank of New York <br>
+    Research and Statistics Group<br>
+    33 Liberty Street<br>
+    New York, NY 10045
+    </p>
     
-<dt><a href="https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr621.pdf" target="_blank">Time-Varying Inflation Risk and the Cross Section of Stock Returns</a><br>
+    <p>
+    <b>Phone:</b><br>
+    857-928-7344
+    </p>
+    
+    <p>
+    <b>Email:</b><br>
+    <a href="mailto:fernando.duarte@ny.frb.org">fernando.duarte@ny.frb.org</a>
+    </p>
+    
+    <p>
+    <b>Other Webpages:</b><br>
+    <a href="https://www.newyorkfed.org/research/economists/duarte" target="_blank">NY Fed Page</a>
+    <br>
+    <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2152963" target="_blank">SSRN Author Page</a>
+    <br>
+    <a href="https://scholar.google.com/citations?user=kym0pssAAAAJ&hl=en" target="_blank">Google Scholar Page</a>
+    </p>
+</nav>
+
+
+<article>
+
+
+<div><br></div>
+<div style="text-align:center;line-height:150%;font-size:120%"><i>Welcome to the personal webpage of Fernando Duarte,<br>
+    Economist at the Federal Reserve Bank of New York</i></font></div>
+<div><br></div>
+
+       
+<h3>Working Papers</h3>
+    
+<dl>
+  
+<dt><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2786194" target="_blank">How to Escape a Liquidity Trap with Interest Rate Rules</a><br>
+    January, 2019.
+    <br>
+    <button class="accordion">&ensp;Abstract&ensp;</button>
+    <div class="panel">
+    I study how central banks should communicate monetary policy in liquidity trap scenarios in which the zero lower bound on nominal interest rates is binding. Using a standard New Keynesian model, I argue that the key to preventing self-fulfilling deflationary spirals and anchoring expectations is to promise to keep  nominal interest rates pegged at zero for a length of time that depends on the state of the economy. I derive necessary and sufficient conditions for this type of state contingent forward guidance to implement the welfare maximizing equilibrium as a globally determinate (i.e., unique) equilibrium. Even though the zero lower bound prevents the Taylor principle from holding, determinacy can be obtained if the central bank sufficiently extends the duration of the zero interest rate peg in response to deflationary or contractionary changes in expectations or outcomes. Fiscal policy is passive, so it plays no role for determinacy. The interest rate rules I consider are easy to communicate, require little institutional change and do not entail any unnecessary social welfare losses.
+    </div>
+<a href="files/indeterminacy_zlb_appendix.pdf" target="_blank">Online Appendix</a><br />
+</dt>
+ 
+ 
+ <dt><a href="https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr621.pdf" target="_blank">Time-Varying Inflation Risk and the Cross Section of Stock Returns</a><br>
     with Martijn Boons, Frans de Roon, and Marta Szymanowska. November, 2018.
     <br>
     <button class="accordion">&ensp;Abstract&ensp;</button>
@@ -106,3 +272,33 @@ International Monetary Fund, Washington DC, April 2018</i>
 </dt>
 </dl>
 
+</d1>
+<h3>Social Media and Popular Press</h3>
+    
+<dl>
+<dt><a href="https://www.newyorkfed.org/research/economists/duarte/socialmedia" target="_blank">Federal Reserve Bank of New York Liberty Street Economics Blog</a></dt>     
+</dl>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
+
+</article>
+
+
+<footer>
+DISCLAIMER: The views expressed in all work on this website are those of the authors and are not necessarily <br> reflective of views at the Federal Reserve Bank of New York or the Federal Reserve System.
+</footer>
+
+</div>
+    
+</body>
+
+</html>
